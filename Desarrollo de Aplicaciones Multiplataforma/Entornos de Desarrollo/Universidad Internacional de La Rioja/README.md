@@ -1,9 +1,15 @@
 # 🇪🇸 Entornos de Desarrollo
 
-**Centro de Estudios:**  UniversidadAlfonso X el Sabio.
+**Centro de Estudios:**  Universidad Internacional de la Rioja.
 
-**Profesora:** Antonio Miguel Reinoso.
+**Profesora:** Raquel Cerdá.
 
+**Grupo:** 4.
+
+**Miembros del Grupo:** 
+- Estanislao Callado
+- Adrián Caballero
+- Miguel Borrás
 #
 En la asignatura de **Entornos de Desarrollo**, se estudian los entornos y herramientas necesarias para escribir, probar, depurar, y gestionar proyectos de software.
 
