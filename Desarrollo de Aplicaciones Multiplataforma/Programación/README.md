@@ -1,4 +1,4 @@
-## 🇪🇸 Programación
+# 🇪🇸 Programación
 
 **Centro de estudios:** Universidad Alfonso X el Sabio.
 
