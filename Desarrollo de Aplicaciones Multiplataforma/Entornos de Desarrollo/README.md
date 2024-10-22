@@ -1,6 +1,6 @@
 # 🇪🇸 Entornos de Desarrollo
 
-**Centro de Estudios:**  UniversidadAlfonso X el Sabio.
+**Centro de Estudios:**  Universidad Alfonso X el Sabio.
 
 **Profesora:** Antonio Miguel Reinoso.
 
