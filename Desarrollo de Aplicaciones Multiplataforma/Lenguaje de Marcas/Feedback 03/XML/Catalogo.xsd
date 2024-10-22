@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone= "no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:annotation>
+	<xsd:documentation xml:lang="Es-es">
+  		Feedback 3 - Catalogo de discos
+   		<fecha>20.11.2020</fecha>
+   		<autor>Adrian Caballero Fernandez</autor>
+ 	</xsd:documentation>
+</xsd:annotation>
+<xsd:element name="Catalogo" type="DatosCatalogo"/>
+	<xsd:complexType name="DatosCatalogo">
+		<xsd:sequence>
+			<xsd:element name="discos" type="DatosDiscos" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+<xsd:complexType name="DatosDiscos">
+	<xsd:sequence>
+		<xsd:element name="disco" type="DatosDisco" minOccurs="1" maxOccurs="unbounded"/>
+	</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="DatosDisco">
+	<xsd:sequence>
+		<xsd:element name="titulo" type="xsd:string" minOccurs="1"/>
+		<xsd:element name="grupo" type="xsd:string" minOccurs="1"/>
+		<xsd:element name="año" type="xsd:positiveInteger" minOccurs="0" maxOccurs="1"/>
+		<xsd:element name="singles" type="DatosSingles" minOccurs="1"/>
+	</xsd:sequence>
+	<xsd:attribute name="formato" type="tipoFormato" use="required"/>
+	<xsd:attribute name="idioma" type="tipoIdioma" use="optional"/>
+</xsd:complexType>
+<xsd:complexType name="DatosSingles">
+	<xsd:sequence>
+		<xsd:element name="single" type="DatosSingle" minOccurs="0" maxOccurs="unbounded"/>
+	</xsd:sequence>
+</xsd:complexType>
+	<xsd:complexType name="DatosSingle">
+		<xsd:attribute name="titulo" type="xsd:string" use="required"/>
+</xsd:complexType>
+<xsd:simpleType name="tipoFormato">
+	<xsd:restriction base="xsd:string">
+		<xsd:enumeration value="CD"/>
+		<xsd:enumeration value="Cassette"/>
+		<xsd:enumeration value="Vinilo"/>
+		<xsd:enumeration value="mp3"/>
+	</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="tipoIdioma">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[a-z]{2}"/>
+	</xsd:restriction>
+</xsd:simpleType>
+</xsd:schema>

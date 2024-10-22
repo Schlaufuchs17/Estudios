@@ -1,0 +1,20 @@
+body{
+	background-image: url("https://www.itl.cat/pngfile/big/99-996466_background-images-for-restaurants.jpg")}
+h1 {
+	font-family: "verdana";
+	color: blue;}
+h2 {
+	font-family: Arial;
+	font-size: auto;
+	text-decoration: none;
+	float: center;
+	padding: 15px;
+	background-color: blue;}
+a {
+	color: #808080;} /*Gris*/
+a:hover {
+	color: red;
+	font-size: 30px;}
+input, select, textarea {
+	font-family: verdana;
+	font-size: 75%;}

@@ -1,0 +1,36 @@
+body{
+	background-image: url("https://www.itl.cat/pngfile/big/99-996466_background-images-for-restaurants.jpg")}
+h1 {
+	font-family: "verdana";
+	color: blue;}
+a {
+	color: #808080; /*Gris*/
+	position: relative; top: 10px;}
+a{ active {
+	color: blue}}
+p {
+	font-family: "arial";
+	color: black;}
+h2 a:hover {
+	color: red;
+	font-size: 30px;}
+h2 {
+	font-family: Arial;
+	font-size: auto;
+	text-decoration: none;
+	float: center;
+	padding: 15px;
+	background-color: blue;}
+table {
+  border-collapse: separate;
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  height: 50%;}
+thead{
+	background-color:#273746; /*Azul grisáceo*/
+	color:white;}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;}

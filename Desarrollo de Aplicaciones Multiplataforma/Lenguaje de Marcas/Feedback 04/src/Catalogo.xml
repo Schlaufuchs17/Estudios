@@ -1,0 +1,41 @@
+<?xml version= "1.0" encoding= "utf-8" standalone= "no"?>
+<?xml-stylesheet type="text/xsl" href="Catalogo.xsl"?> <!---Aqui el archivo XLS--->
+<catalogo xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="Catalogo.xsd">
+ <!--- Aqui el archivo xsd--->
+<disco id= "01" formato= "CD" idioma= "GER">
+		<titulo> Mutter </titulo>
+		<grupo> Rammstein </grupo>
+		<año> 2001 </año>
+		<singles>
+			<single titulo= "Links 2 3 4"/>
+			<single titulo= "Feuer Frei!"/>
+			<single titulo= "Sonne"/>
+			<single titulo= "Ich Will"/>
+		</singles>
+	</disco>
+	<disco id= "02" formato= "Cassette" idioma= "EN">
+		<titulo> Fallen </titulo>
+			<grupo> Evanescence </grupo>
+			<año> 2003 </año>
+			<singles>
+				<single titulo= "Bring me to Life"/>
+				<single titulo= "Everybody's fool"/>
+				<single titulo= "My Immortal" />
+			</singles>
+		</disco>
+		<disco id= "03" formato= "Vinilo" idioma= "EN">
+			<titulo> Ride the Lightning </titulo>
+			<grupo> Metallica </titulo>
+			<año> 1988 </año>
+		</disco>
+		<disco id= "04" formato= "mp3" idoma= "ES">
+			<titulo> Ira Dei </titulo>
+			<grupo> Magö de Oz </grupo>
+			<año> 2019 </año>
+			<singles>
+				<single titulo= "La Triste Historia de Jimmy Tiro en el Pie" />
+				<single titulo= "Suspiria" />
+				<single titulo= "Infinitum" />
+			</single>
+		</disco>
+</catalogo>

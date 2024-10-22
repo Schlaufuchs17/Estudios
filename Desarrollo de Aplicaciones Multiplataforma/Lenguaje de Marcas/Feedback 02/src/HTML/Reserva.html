@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<title>El Portal Restaurante</title>
+	</head>
+<body>
+<h1 align= "center"> <b> El Portal Restaurante </b> </h1>
+<h2 align= "center"> 
+			<a href= "Index.html"> Presentación </a>
+			<a href= "Menu.html"> Menú </a>
+			<a href= "Reserva.html"> Reserva </a></h2>
+<hr></hr>
+<center>
+	<form action= "mailto: elportal@gmail.com" method= "post" enctype= "text/plain">
+		<label for= "Texto 1"> Nombre: </label>
+			<input type= "text" name= Nombre"> </input>
+		<br>
+		<br>
+		<label for= "Texto 2"> Nº Tarjeta: </label>
+			<input type= "password" name= Nº Tarjeta"> </input>
+		<br>
+		<br>
+		<label for= "Texto 3"> Fecha </label>
+		<select name= "Día">
+			<option> Día </option>
+			<option> 01 </option>
+			<option> 02 </option>
+		</select>
+		<select name= "Mes">
+			<option> Mes </option>
+			<option> Enero </option>
+			<option> Febrero </option>
+		</select>
+		<select name= "Hora">
+			<option> Hora </option>
+			<option> 22:00 </option>
+			<option> 22:15 </option>
+			<option> 22:30 </option>
+		</select>
+		<br>
+		<br>
+		<label for= "Texto 4"> Avisos: </label>
+			<textarea rows= "4" cols= "30">...</textarea>
+		<br>
+		<label for= "Texto 5"> Parking: </label>
+		<input name= "Parking:" type= "checkbox"> </input>
+		<br>
+		<br>
+		<label for= "Texto 6"> Zona: </label>
+		Terraza <input name= "Zona" type= "radio" value="Terraza"> </input>
+		Salón <input name= "Zona" type= "radio" value="Salón"> </input>
+		<br>
+		<br>
+		<input type= "submit" value= "Enviar"> </input> </form>	
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone= "no"?>
+<!element catalogo (discos)>
+<!element discos (disco)>
+<!element disco (titulo, grupo, año, singles)>
+<!attlist disco
+	formato (CD|Cassette|Vinilo|mp3) CDATA #REQUIRED
+	idioma CDATA # IMPLIED>
+<!attlist titulo (#PCDATA)>
+<!attlist grupo (#PCDATA)>
+<!attlist año (#PCDATA)>
+<!element singles (single+)>
+<!element single EMPTY>
+<!ATTLIST single
+	nombre CDATA #IMPLIED >
