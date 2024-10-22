@@ -1,0 +1,5 @@
+# Dentro del fichero gitingore podemos poner todo lo que queremos que se ignore a la hora de versionar.
+
+# Para conocer mas acudir a https://git-scm.com/docs/gitignore
+
+/.metadata/
