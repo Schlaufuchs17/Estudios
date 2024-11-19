@@ -11,9 +11,9 @@ Se valorará que el servidor esté preparado para que interactúen con él vario
 
 La aplicación cliente mostrará un menú como el que sigue:
 
-• Consultar libro por ISBN
-• Consultar libro por titulo
-• Salir de la aplicación
+- Consultar libro por ISBN
+- Consultar libro por titulo
+- Salir de la aplicación
 
 La aplicación se ejecutará hasta que el cliente decida pulsar la opción de “salir de la aplicación”.
 
