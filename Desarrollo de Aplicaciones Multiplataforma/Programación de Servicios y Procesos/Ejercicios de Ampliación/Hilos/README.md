@@ -23,4 +23,4 @@ Del mismo modo, habrá 2 hilos que consuman los emails del buffer siempre que ha
 Queremos ampliar el requerimiento 2. En nuestra empresa queremos evitar que se envíen mails a pikachu@gmail.com, por lo que no se deben meter en el buffer aquellos email lo tengan como
 destinatario. Se deberá imprimir por pantalla cada vez que hagamos este descarte. 
 
-Nota: Esta lógica irá dentro del buffer de procesamiento de emails, no de los productores o los consumidores.
+**Nota**: Esta lógica irá dentro del buffer de procesamiento de emails, no de los productores o los consumidores.
