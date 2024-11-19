@@ -5,10 +5,10 @@ Se pide hacer una aplicación que encripte frases introducidas por el usuario de
 
 La aplicación mostrará el siguiente menú:
 
-• Salir del programa.
-• Encriptar frase.
-• Mostrar frase encriptada.
-• Desencriptar frase.
+- Salir del programa.
+- Encriptar frase.
+- Mostrar frase encriptada.
+- Desencriptar frase.
 
 Con la opción 1 el programa le pedirá al usuario una frase, la encriptará y la guardará en memoria.
 
@@ -21,7 +21,7 @@ Solo se guardará una frase al mismo tiempo. Se utilizará un método de encript
 ## Requerimiento 2
 Se añaden la siguiente opción:
 
-• Encriptar Coche.
+- Encriptar Coche.
 
 Con la opción 4 el usuario meterá todos los atributos de un coche por teclado. Los atributos serán los siguientes: Matricula, marca, modelo y precio. Una vez introducidos los datos, se guardará el coche encriptado en memoria.
 
