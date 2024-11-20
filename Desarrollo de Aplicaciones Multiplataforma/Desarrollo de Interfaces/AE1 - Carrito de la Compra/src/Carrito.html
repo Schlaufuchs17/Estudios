@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Carrito de la Compra</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="codigo.css">
+        <link href="https://www.fonts.com/font/monotype/times-new-roman?QueryFontType=Web&src=GoogleWebFonts" rel="stylesheet">
+        <script type="text/javascript" src="codigo.js"></script>
+    </head>
+
+    <body>
+        <br>
+        <form name="formulario" >
+            <label class="etiqueta" for="nombreArticulo">Nombre articulo: </label>
+            <input class="caja" name="nombreArticulo" type="text"> 
+            <small id="faltaArtculo"> Falta articulo</small>
+            <br><br>
+           
+            <label class="etiqueta" for="precioArticulo">Precio articulo: </label>
+            <input class="caja" name="precioArticulo" type="text">
+            <small id="faltaPrecio">Falta el precio</small>
+            <small id="incorrecto">El dato es incorrecto</small> 
+            <br><br>
+
+            <label class="etiqueta" for="unidades">Unidades: </label>    
+            <input name="unidades" type="number" min="1" max="10" placeholder="1">
+            <br><br>
+            
+            <input class="boton" name="botonCarrito" type="button" value="Añadir al carrito"> 
+            <br/><br/><br/>
+
+            <label class="etiqueta" for="articulosCarro">Articulos en el carrito: </label>
+            <input id="textarea" name="articulosCarro" type="textarea">
+            <br><br>
+
+            <label class="etiqueta" for="precioCarro">Precio total del carrito: </label>
+            <input  class="caja" name="precioCarro" type="text" placeholder="0">
+            <br><br>
+            
+            <label class="etiqueta" for="formaPago">Forma de pago: </label>
+            <select name="formaPago">
+                <option class ="opcion" value="seleccione">--Seleccione--</option>
+                <option class ="opcion" value="tarjeta">Tarjeta</option>
+                <option class ="opcion" value="efectivo">Efectivo</option>
+            </select>
+            <br><br><br>
+
+            <div id = "tarjeta">
+                <label class="etiqueta" for="tTarjeta">Titular tarjeta: </label>
+                <input class="caja" name="tTarjeta" type="text">
+                <br><br>
+                <label class="etiqueta" for="nTarjeta">Numero tarjeta: </label>
+                <input class="caja" name="nTarjeta" type="text">
+                <br><br>
+                <label class="etiqueta" for="cvv">CVV: </label>
+                <input class="caja" name="cvv" type="text">
+                <br><br><br>
+            </div> 
+
+            <div id = "efectivo">
+                <label class="etiqueta" for="importe">Importe efectivo: </label>
+                <input class="caja" name="importe" type="text">
+                <br><br><br>
+            </div>
+
+            <input id="myCheck" name="condicionesCompra" type="checkbox" >
+            <label class="etiqueta" for="condicionesCompra">Acepto las condiciones de compra</label>
+            <br><br>
+            <input class="boton" name ="botonImprimir" type="button" value="Imprimir" disabled="true">
+            <input class="boton" name ="botonReset"type="button" value="Restablecer">
+
+        </form>
+    </body>
+</html>
