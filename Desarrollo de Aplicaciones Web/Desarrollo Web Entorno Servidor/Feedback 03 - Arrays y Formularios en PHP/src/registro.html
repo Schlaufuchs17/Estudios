@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>****Formulario de Registro****</title> <!--Nombre del formulario-->
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="registro.php" method="post">
+        Nombre: <input type="text" name="nombre" required><br>
+        Apellidos: <input type="text" name="apellidos" required><br>
+        Telefono: <input type="text" name="telefono" pattern="\d+" required><br>
+        Fecha de Nacimiento: <input type="date" name="fecha_nacimiento" required><br>
+        Email: <input type="email" name="email" required><br>
+        Direccion: <input type="text" name="direccion" required><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>

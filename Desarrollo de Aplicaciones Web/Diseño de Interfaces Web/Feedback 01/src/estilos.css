@@ -1,0 +1,7 @@
+body {
+    background-image: url('Imagenes/wallpaper.jpg'); /*Dejar sin imagen, solo fondo azul*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif; /*Fuente del texto*/
+    margin: 0; /*Margenes*/
+    padding: 0;/*Rellenos*/
+    display: flex;/*Creamos un contenedor flexible, que se ajuste*/
+    flex-direction: column; /*Direccion de los elementos*/
+    align-items: center; /*Centrado de los elementos*/
+    justify-content: center; /*Centrado de lso elementos verticalmente*/
+    height: 100vh; /*Hacer que el cuerpo ocupe el 100% de la ventana*/
+    background-image: url('Imagenes/Wallpaper.jpg'); /*Ruta de tu imagen de fondo*/
+    background-size: cover; /*Ajusta el tamaño del fondo para cubrir todo el contenedor*/
+    background-position: center; /*Centra la imagen de fondo*/
+    background-repeat: no-repeat; /*Evita la repetición del fondo*/
+    color: #fff; /*Cambia el color del texto, en este caso a Reproductor de Canciones */
+}
+
+
+.playlist img {
+    max-width: 75px;
+    height: auto;
+    float: left; /*Alineacion*/
+    margin-right: 10px;
+}
+
+.playlist {
+    text-align: center; /*Centra horizontalmente la lista*/
+}
+
+.playlist h1 {
+    color: #f8f6f6;
+    clear: both; /*Asegura que el título no se superponga con las imagenes flotantes*/
+}
+
+.playlist ul {
+    list-style: none; /*Evita que tenga estilos predeterminados*/
+    padding: 0; /*Evita el relleno*/
+}
+
+.playlist li {
+    background-color: #756cee; /*Color de fondo*/
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer; /*Indica que el elemento es interactivo*/
+    border-radius: 5px; /*Esquinas redondeadas*/
+    overflow: hidden; /*Evita que las imagenes se extiendan fuera del contenedor li*/
+    text-align: center; 
+}
+
+.playlist li p {
+    color: #faf4f4;
+    margin: 0; /*Asegura que no haya margenes en el parrafo interno*/
+}
+
+.audio-player img {
+    max-width: 100px;
+    height: auto;
+    float: left; /*Alinea la imagen a la izquierda*/
+    margin-right: 10px; /*Espacio entre la imagen y el reproductor de audio*/
+}
+
+.audio-player {
+    margin-top: 20px;
+}
+
+.audio-player img {
+    max-width: 50px; /*Establece el ancho maximo*/
+    height: auto; /*Mantiene la proporcion de la imagen */
+    float: left; /* Establece la alineacion a la izquierda */
+    margin-right: 10px; /* Añade un margen derecho para separar la imagen del contenido */
+}
+
