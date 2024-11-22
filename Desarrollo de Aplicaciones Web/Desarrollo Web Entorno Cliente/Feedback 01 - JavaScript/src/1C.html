@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback 1C</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Texto qeu vamos a poner en pantalla-->
+    <p id="Texto">Desarrollo Web Entorno Cliente - Feedback 1 - Adrian Caballero</p>
+
+    <!--Color de los botones-->
+    <button onclick="cambiarColor('azul')">AZUL</button>
+    <button onclick="cambiarColor('verde')">VERDE</button>
+    <button onclick="cambiarColor('rojo')">ROJO</button>
+
+    <script>
+        function cambiarColor(color) {
+            // Obtener el párrafo por su id
+            var parrafo = document.getElementById('Texto');
+
+            // Cambiar el color
+            switch (color) {
+                case 'azul':
+                    parrafo.style.color = 'blue';
+                    break;
+                case 'verde':
+                    parrafo.style.color = 'green';
+                    break;
+                case 'rojo':
+                    parrafo.style.color = 'red';
+                    break;
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Días del Mes</title>
+</head>
+<body>
+
+<script>
+    // Obtener dias del mes
+    function obtenerDiasDelMes(mes) {
+        const mesesCon31Dias = [1, 3, 5, 7, 8, 10, 12];
+        const mesesCon30Dias = [4, 6, 9, 11];
+
+        if (mes === 2) {
+            return 28; // Febrero tiene 28 dias (no consideramos años bisiestos)
+        } else if (mesesCon31Dias.includes(mes)) {
+            return 31;
+        } else if (mesesCon30Dias.includes(mes)) {
+            return 30;
+        } else {
+            return -1; // Valor invalido para el mes
+        }
+    }
+
+    // Solicitar un numero del 1 al 12
+    let numeroMes = parseInt(prompt("Introduce un número del 1 al 12 para representar un mes:"));
+
+    // Verificar si el numero de mes es valido
+    if (numeroMes >= 1 && numeroMes <= 12) {
+        // Obtener y mostrar el numero de dias del mes
+        let diasDelMes = obtenerDiasDelMes(numeroMes);
+        if (diasDelMes !== -1) {
+            alert("El mes " + numeroMes + " tiene " + diasDelMes + " días.");
+        } else {
+            alert("Número de mes no válido.");
+        }
+    } else {
+        alert("Número de mes no válido. Introduce un número del 1 al 12.");
+    }
+</script>
+
+</body>
+</html>

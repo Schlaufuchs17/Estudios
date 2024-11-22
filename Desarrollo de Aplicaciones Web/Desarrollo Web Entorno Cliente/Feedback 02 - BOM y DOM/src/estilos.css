@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 650px; 
+    height: 220px; 
+    background-color: lightblue;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-image: url('Imagenes/fondo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
